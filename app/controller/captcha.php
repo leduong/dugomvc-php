@@ -20,7 +20,6 @@
  *
  *
  */
-/*
 class Controller_Captcha extends Controller
 {
 	public function index()

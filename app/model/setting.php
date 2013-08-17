@@ -20,7 +20,6 @@
  *
  *
  */
-/*
 
 class Model_Setting extends APCORM
 {

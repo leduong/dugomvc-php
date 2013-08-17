@@ -20,7 +20,7 @@
  *
  *
  */
-/*
+
 class Controller_Admin_Language extends Controller
 {
 	public function index()

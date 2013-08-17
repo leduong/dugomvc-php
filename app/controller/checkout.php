@@ -20,7 +20,7 @@
  *
  *
  */
-/*
+
 class Controller_Checkout extends Controller
 {
 	public function success()

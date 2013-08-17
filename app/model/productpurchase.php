@@ -21,7 +21,6 @@
  *
  */
 /*
-/*
 CREATE TABLE `products_purchase` (
   `id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   `product_id` int(11) DEFAULT '0',

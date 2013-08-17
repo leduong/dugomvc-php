@@ -20,7 +20,7 @@
  *
  *
  */
-/*
+
 class Controller_Admin_Filemanager extends Controller
 {
 	public function index()

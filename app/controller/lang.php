@@ -20,7 +20,6 @@
  *
  *
  */
-/*
 class Controller_Lang extends Controller
 {
 	public function index()

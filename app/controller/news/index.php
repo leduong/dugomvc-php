@@ -20,7 +20,7 @@
  *
  *
  */
-/*
+
 class Controller_News_Index extends Controller
 {
 	public function index()

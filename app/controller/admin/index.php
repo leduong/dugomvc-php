@@ -20,7 +20,7 @@
  *
  *
  */
-/*
+
 class Controller_Admin_Index extends Controller
 {
 	public function index()

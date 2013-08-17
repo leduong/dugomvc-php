@@ -20,7 +20,6 @@
  *
  *
  */
-/*
 class Controller_Common_Filemanager extends Controller {
 	private $error=array();
 	public function index() {

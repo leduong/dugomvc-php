@@ -20,7 +20,7 @@
  *
  *
  */
-/*
+
 class Controller_Facebook extends Controller
 {
 	public function index()

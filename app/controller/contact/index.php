@@ -20,7 +20,7 @@
  *
  *
  */
-/*
+
 class Controller_Contact_Index extends Controller
 {
 	public function index()

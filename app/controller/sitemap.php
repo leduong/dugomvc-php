@@ -20,7 +20,7 @@
  *
  *
  */
-/*
+
 class Controller_Sitemap extends Controller {
 	public function index() {
 		/*$dt = new Time();

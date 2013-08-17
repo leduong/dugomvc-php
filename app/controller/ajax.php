@@ -20,7 +20,7 @@
  *
  *
  */
-/*
+
 class Controller_Ajax extends Controller
 {
 	public function email()

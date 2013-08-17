@@ -20,31 +20,11 @@
  *
  *
  */
-/*
 // Sample 404 error page handling
 class Controller_Common_404 extends Controller
 {
 	public function index()
 	{
-		if ($slug = Model_Info::fetch(array('slug' => str_replace('.html','',url())))){
-			$t = $slug[0];
-			$this->content = new View('box');
-			$this->content->title = $this->appsite['site_title'] = $t->name;
-			$this->content->content = $t->description;
-		}
-		elseif($slug = Model_Articles::fetch(array('slug' => str_replace('.html','',url())))){
-			$t = $slug[0];
-			$this->content = new View('entry');
-			$this->content->title = $this->appsite['site_title'] = $t->name;
-			$this->content->description = $t->description;
-			$this->content->entries = Model_Entry::fetch(array('category_id' => $t->id),20);
-		}
-		elseif($slug = Model_Entry::fetch(array('slug' => str_replace('.html','',url())))){
-			$t = $slug[0];
-			$this->content = new View('entry');
-			$this->content->title = $this->appsite['site_title'] = $t->title;
-			$this->content->content = $t->description;
-		}
-		else $this->show_404();
+		$this->show_404();
 	}
 }

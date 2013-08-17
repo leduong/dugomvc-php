@@ -20,7 +20,7 @@
  *
  *
  */
-/*
+
 class Controller_Product extends Controller {
 	public function category() {
 		$this->content = new View('category');

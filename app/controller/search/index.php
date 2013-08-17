@@ -20,7 +20,6 @@
  *
  *
  */
-/*
 class Controller_Search_Index extends Controller
 {
 	public function index()

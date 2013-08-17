@@ -20,7 +20,7 @@
  *
  *
  */
-/*
+
 class Controller_Admin_Shop extends Controller
 {
 	public function index()

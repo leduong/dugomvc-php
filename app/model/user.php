@@ -21,7 +21,6 @@
  *
  */
 /*
-/*
 CREATE TABLE `user` (
   `id` INTEGER PRIMARY KEY AUTOINCREMENT,
   `username` varchar(50) NOT NULL,
@@ -58,5 +57,4 @@ class Model_User extends ORM
 	public static $h = array(
 		'purchase' => 'Model_ProductPurchase',
 	);
-
 }
